@@ -198,8 +198,67 @@ nav a {
 }
 
 .column-description {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+/* A summary of my resume section start from here */
+.summary-section {
+    padding: 0px 300px;
+    align-items: center;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.summary-column-1{
+    margin-right: 70px;
+}
+
+.summary-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 25px 0px;
+}
+
+.summary-course-name {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.summary-institude-name {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.summary-description {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 0px;
+}
+hr{
+    width: 558px;
+}
+.btn-summary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+.download-cv{
+    text-align: center;
 }

@@ -216,7 +216,7 @@ nav a {
     margin: 50px 0px;
 }
 
-.summary-column-1{
+.summary-column-1 {
     margin-right: 70px;
 }
 
@@ -242,15 +242,17 @@ nav a {
 }
 
 .summary-description {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     padding: 8px 0px;
 }
-hr{
+
+hr {
     width: 558px;
 }
-.btn-summary{
+
+.btn-summary {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
@@ -259,6 +261,52 @@ hr{
     font-weight: 700;
     padding: 15px 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
+}
+
+/* footer section styles from here */
+.footer-section {
+    background: #FFF8F3;
+    padding: 0px 300px;
+    margin-top: 100px;
+}
+
+.footer-container {
+    padding: 150px 0px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.social-icon img {
+    margin-right: 15px;
+}
+
+.contact input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    padding: 15px;
+    padding-right: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 17spx;
+    color: #757575;
+    background: #fff;
 }
